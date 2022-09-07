@@ -1,21 +1,13 @@
 <template>
   <div class="hello">
     <h1>小太陽作品集</h1>
-    <Gallery
-      :images="images"
-      :imageWidth='720'
-      :imageHeight='auto'
-      :popUpMaxWidth='720'
-      :mdCols='4'
-      :smCols='4'
-      :xsCols='6'
-      :lgCols='2'
-    />
+    <div class="images" v-viewer>
+      <img v-for="src in images" :key="src.id" :src="src.imgSrc">
+    </div>
   </div>
 </template>
 
 <script>
-import Gallery from 'vuejs-image-gallery'
 
 export default {
   name: 'HelloWorld',
@@ -48,12 +40,18 @@ export default {
         {
           id: 6,
           imgSrc: require('@/assets/m6.png')
+        },
+        {
+          id: 7,
+          imgSrc: require('@/assets/m7.png')
         }
       ]
     }
   },
-  components: {
-    Gallery
+  mounted () {
+    this.$viewerApi({
+      images: this.images
+    })
   }
 }
 
