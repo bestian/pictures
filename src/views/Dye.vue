@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <h1>小太陽作品集-摺紙</h1>
+    <h1>小太陽作品集-植物染</h1>
     <div class="images">
       <vue-picture-swipe :items="images"/>
     </div>
@@ -18,40 +18,32 @@ export default {
     return {
       images: [
         {
-          id: 0,
-          src: require('@/assets/paper/p0.jpeg'),
-          thumbnail: require('@/assets/paper/p0.jpeg'),
-          w: 400,
-          h: 500,
-          alt: 'image'
-        },
-        {
           id: 1,
-          src: require('@/assets/paper/p1.jpg'),
-          thumbnail: require('@/assets/paper/p1.jpg'),
+          src: require('@/assets/paper/d1.jpg'),
+          thumbnail: require('@/assets/paper/d1.jpg'),
           w: 400,
           h: 500,
           alt: 'image'
         },
         {
           id: 2,
-          src: require('@/assets/paper/p2.jpg'),
-          thumbnail: require('@/assets/paper/p2.jpg'),
+          src: require('@/assets/paper/d2.jpg'),
+          thumbnail: require('@/assets/paper/d2.jpg'),
           w: 400,
           h: 500,
           alt: 'image'
         },
         {
           id: 3,
-          src: require('@/assets/paper/p3.jpg'),
-          thumbnail: require('@/assets/paper/p3.jpg'),
+          src: require('@/assets/paper/d3.jpg'),
+          thumbnail: require('@/assets/paper/d3.jpg'),
           w: 400,
           h: 500,
           alt: 'image'
         },
         {
           id: 4,
-          src: require('@/assets/paper/p4.jpg'),
+          src: require('@/assets/paper/d4.jpg'),
           thumbnail: require('@/assets/paper/p4.jpg'),
           w: 400,
           h: 500,
@@ -59,8 +51,8 @@ export default {
         },
         {
           id: 5,
-          src: require('@/assets/paper/p5.jpg'),
-          thumbnail: require('@/assets/paper/p5.jpg'),
+          src: require('@/assets/paper/d5.jpg'),
+          thumbnail: require('@/assets/paper/d5.jpg'),
           w: 400,
           h: 500,
           alt: 'image'
