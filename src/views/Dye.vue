@@ -19,48 +19,48 @@ export default {
       images: [
         {
           id: 1,
-          src: require('@/assets/paper/d1.jpg'),
-          thumbnail: require('@/assets/paper/d1.jpg'),
+          src: require('@/assets/dye/d1.jpg'),
+          thumbnail: require('@/assets/dye/d1.jpg'),
           w: 400,
           h: 500,
           alt: 'image'
         },
         {
           id: 2,
-          src: require('@/assets/paper/d2.jpg'),
-          thumbnail: require('@/assets/paper/d2.jpg'),
+          src: require('@/assets/dye/d2.jpg'),
+          thumbnail: require('@/assets/dye/d2.jpg'),
           w: 400,
           h: 500,
           alt: 'image'
         },
         {
           id: 3,
-          src: require('@/assets/paper/d3.jpg'),
-          thumbnail: require('@/assets/paper/d3.jpg'),
+          src: require('@/assets/dye/d3.jpg'),
+          thumbnail: require('@/assets/dye/d3.jpg'),
           w: 400,
           h: 500,
           alt: 'image'
         },
         {
           id: 4,
-          src: require('@/assets/paper/d4.jpg'),
-          thumbnail: require('@/assets/paper/p4.jpg'),
+          src: require('@/assets/dye/d4.jpg'),
+          thumbnail: require('@/assets/dye/p4.jpg'),
           w: 400,
           h: 500,
           alt: 'image'
         },
         {
           id: 5,
-          src: require('@/assets/paper/d5.jpg'),
-          thumbnail: require('@/assets/paper/d5.jpg'),
+          src: require('@/assets/dye/d5.jpg'),
+          thumbnail: require('@/assets/dye/d5.jpg'),
           w: 400,
           h: 500,
           alt: 'image'
         },
         {
           id: 6,
-          src: require('@/assets/paper/p6.jpg'),
-          thumbnail: require('@/assets/paper/p6.jpg'),
+          src: require('@/assets/dye/p6.jpg'),
+          thumbnail: require('@/assets/dye/p6.jpg'),
           w: 400,
           h: 500,
           alt: 'image'
