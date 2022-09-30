@@ -41,4 +41,9 @@ nav a.router-link-exact-active {
   border: none !important;
 }
 
+img {
+  max-width: 25vw;
+  border-radius: 50px;
+}
+
 </style>
