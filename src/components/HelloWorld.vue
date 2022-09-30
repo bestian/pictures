@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <h1>小太陽作品集</h1>
+    <h1>小太陽作品集-曼陀羅</h1>
     <div class="images">
       <vue-picture-swipe :items="images"/>
     </div>
