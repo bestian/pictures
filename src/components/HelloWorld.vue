@@ -1,8 +1,8 @@
 <template>
   <div class="hello">
     <h1>小太陽作品集</h1>
-    <div class="images" v-viewer>
-      <img v-for="src in images" :key="src.id" :src="src.imgSrc">
+    <div class="images">
+      <vue-picture-swipe :items="images"/>
     </div>
   </div>
 </template>
@@ -19,44 +19,74 @@ export default {
       images: [
         {
           id: 1,
-          imgSrc: require('@/assets/m1.png')
+          src: require('@/assets/m1.png'),
+          thumbnail: require('@/assets/m1.png'),
+          w: 600,
+          h: 400,
+          alt: 'image'
         },
         {
           id: 2,
-          imgSrc: require('@/assets/m2.png')
+          src: require('@/assets/m2.png'),
+          thumbnail: require('@/assets/m2.png'),
+          w: 600,
+          h: 400,
+          alt: 'image'
         },
         {
           id: 3,
-          imgSrc: require('@/assets/m3.png')
+          src: require('@/assets/m3.png'),
+          thumbnail: require('@/assets/m3.png'),
+          w: 600,
+          h: 400,
+          alt: 'image'
         },
         {
           id: 4,
-          imgSrc: require('@/assets/m4.png')
+          src: require('@/assets/m4.png'),
+          thumbnail: require('@/assets/m4.png'),
+          w: 600,
+          h: 400,
+          alt: 'image'
         },
         {
           id: 5,
-          imgSrc: require('@/assets/m5.png')
+          src: require('@/assets/m5.png'),
+          thumbnail: require('@/assets/m5.png'),
+          w: 600,
+          h: 400,
+          alt: 'image'
         },
         {
           id: 6,
-          imgSrc: require('@/assets/m6.png')
+          src: require('@/assets/m6.png'),
+          thumbnail: require('@/assets/m6.png'),
+          w: 600,
+          h: 400,
+          alt: 'image'
         },
         {
           id: 7,
-          imgSrc: require('@/assets/m7.png')
+          src: require('@/assets/m7.png'),
+          thumbnail: require('@/assets/m7.png'),
+          w: 600,
+          h: 400,
+          alt: 'image'
         }
       ]
     }
   },
   mounted () {
-    this.$viewerApi({
-      images: this.images
-    })
   }
 }
 
 </script>
 
 <style type="text/css">
+
+img {
+  max-width: 25vw;
+  border-radius: 50px;
+}
 
 </style>

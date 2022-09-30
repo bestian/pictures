@@ -2,9 +2,8 @@ import Vue from 'vue'
 import App from './App.vue'
 import './registerServiceWorker'
 import router from './router'
-import 'viewerjs/dist/viewer.css'
-import VueViewer from 'v-viewer'
-Vue.use(VueViewer)
+import VuePictureSwipe from 'vue-picture-swipe'
+Vue.component('vue-picture-swipe', VuePictureSwipe)
 
 Vue.config.productionTip = false
 
