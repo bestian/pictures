@@ -14,6 +14,9 @@ export default {
   props: {
     msg: String
   },
+  metaInfo: {
+    title: '曼陀羅'
+  },
   data () {
     return {
       images: [

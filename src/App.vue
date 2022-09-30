@@ -9,6 +9,19 @@
   </div>
 </template>
 
+<script type="text/javascript">
+
+export default {
+  name: 'App',
+  metaInfo: {
+    // if no subcomponents specify a metaInfo.title, this title will be used
+    title: '歡迎',
+    // all titles will be injected into this template
+    titleTemplate: '%s | 小太陽作品集'
+  }
+}
+</script>
+
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;

@@ -3,8 +3,10 @@ import App from './App.vue'
 import './registerServiceWorker'
 import router from './router'
 import VuePictureSwipe from 'vue-picture-swipe'
-Vue.component('vue-picture-swipe', VuePictureSwipe)
+import VueMeta from 'vue-meta'
 
+Vue.use(VueMeta)
+Vue.component('vue-picture-swipe', VuePictureSwipe)
 Vue.config.productionTip = false
 
 new Vue({

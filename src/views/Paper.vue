@@ -11,6 +11,9 @@
 
 export default {
   name: 'PaPer',
+  metaInfo: {
+    title: '摺紙'
+  },
   data () {
     return {
       images: [
