@@ -10,9 +10,9 @@
 <script>
 
 export default {
-  name: 'PaPer',
+  name: 'Dye',
   metaInfo: {
-    title: '摺紙'
+    title: '植物染'
   },
   data () {
     return {
