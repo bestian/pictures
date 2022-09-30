@@ -4,7 +4,7 @@
       <router-link class="item" to="/"><i class="home icon" /></router-link>
       <router-link class="item" to="/about">關於</router-link>
       <router-link class="item" to="/paper">摺紙</router-link>
-      <router-link class="item" to="/paper">植物染</router-link>
+      <router-link class="item" to="/dye">植物染</router-link>
     </nav>
     <router-view/>
   </div>
