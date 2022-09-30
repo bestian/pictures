@@ -16,8 +16,9 @@
     "semantic-ui-vue": "^0.11.0",
     "vue": "^2.7.10",
     "vue-loader": "^17.0.0",
-    "vue-router": "^3.2.0",
-    "vue-picture-swipe": "^2.1.0"
+    "vue-meta": "^2.4.0",
+    "vue-picture-swipe": "^2.1.0",
+    "vue-router": "^3.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
