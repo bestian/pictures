@@ -44,7 +44,7 @@ export default {
         {
           id: 4,
           src: require('@/assets/dye/d4.jpg'),
-          thumbnail: require('@/assets/dye/p4.jpg'),
+          thumbnail: require('@/assets/dye/d4.jpg'),
           w: 400,
           h: 500,
           alt: 'image'
