@@ -35,10 +35,10 @@ export default {
 
 </script>
 
-<style type="text/css">
+<style type="text/css" scoped>
 
 img {
-  max-width: 13vw;
+  max-width: 13vw !important;
   border-radius: 50px;
 }
 
