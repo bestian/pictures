@@ -59,8 +59,8 @@ export default {
         },
         {
           id: 6,
-          src: require('@/assets/dye/p6.jpg'),
-          thumbnail: require('@/assets/dye/p6.jpg'),
+          src: require('@/assets/dye/d6.jpg'),
+          thumbnail: require('@/assets/dye/d6.jpg'),
           w: 400,
           h: 500,
           alt: 'image'
