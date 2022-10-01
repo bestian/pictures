@@ -72,6 +72,102 @@ export default {
           w: 400,
           h: 500,
           alt: 'image'
+        },
+        {
+          id: 7,
+          src: require('@/assets/paper/p7.jpg'),
+          thumbnail: require('@/assets/paper/p7.jpg'),
+          w: 400,
+          h: 500,
+          alt: 'image'
+        },
+        {
+          id: 8,
+          src: require('@/assets/paper/p8.jpg'),
+          thumbnail: require('@/assets/paper/p8.jpg'),
+          w: 400,
+          h: 500,
+          alt: 'image'
+        },
+        {
+          id: 9,
+          src: require('@/assets/paper/p9.jpg'),
+          thumbnail: require('@/assets/paper/p9.jpg'),
+          w: 400,
+          h: 500,
+          alt: 'image'
+        },
+        {
+          id: 10,
+          src: require('@/assets/paper/p10.jpg'),
+          thumbnail: require('@/assets/paper/p10.jpg'),
+          w: 400,
+          h: 500,
+          alt: 'image'
+        },
+        {
+          id: 11,
+          src: require('@/assets/paper/p11.jpg'),
+          thumbnail: require('@/assets/paper/p11.jpg'),
+          w: 400,
+          h: 500,
+          alt: 'image'
+        },
+        {
+          id: 12,
+          src: require('@/assets/paper/p12.jpg'),
+          thumbnail: require('@/assets/paper/p12.jpg'),
+          w: 400,
+          h: 500,
+          alt: 'image'
+        },
+        {
+          id: 13,
+          src: require('@/assets/paper/p13.jpg'),
+          thumbnail: require('@/assets/paper/p13.jpg'),
+          w: 400,
+          h: 500,
+          alt: 'image'
+        },
+        {
+          id: 14,
+          src: require('@/assets/paper/p14.jpg'),
+          thumbnail: require('@/assets/paper/p14.jpg'),
+          w: 400,
+          h: 500,
+          alt: 'image'
+        },
+        {
+          id: 15,
+          src: require('@/assets/paper/p15.jpg'),
+          thumbnail: require('@/assets/paper/p15.jpg'),
+          w: 400,
+          h: 500,
+          alt: 'image'
+        },
+        {
+          id: 16,
+          src: require('@/assets/paper/p16.jpg'),
+          thumbnail: require('@/assets/paper/p16.jpg'),
+          w: 400,
+          h: 500,
+          alt: 'image'
+        },
+        {
+          id: 17,
+          src: require('@/assets/paper/p17.jpg'),
+          thumbnail: require('@/assets/paper/p17.jpg'),
+          w: 400,
+          h: 500,
+          alt: 'image'
+        },
+        {
+          id: 18,
+          src: require('@/assets/paper/p18.jpg'),
+          thumbnail: require('@/assets/paper/p18.jpg'),
+          w: 400,
+          h: 500,
+          alt: 'image'
         }
       ]
     }

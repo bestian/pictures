@@ -42,8 +42,20 @@ nav a.router-link-exact-active {
 }
 
 img {
-  max-width: 25vw;
+  max-width: 15vw;
   border-radius: 50px;
+}
+
+@media screen and (max-width: 900px) and (min-width: 701px) {
+  img {
+    max-width: 20vw;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  img {
+    max-width: 25vw;
+  }
 }
 
 </style>
