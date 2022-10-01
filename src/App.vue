@@ -42,8 +42,18 @@ nav a.router-link-exact-active {
 }
 
 img {
+  position: relative;
+  top: 0;
   max-width: 15vw;
   border-radius: 50px;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+img:hover {
+  top: -2em;
 }
 
 @media screen and (max-width: 900px) and (min-width: 701px) {
